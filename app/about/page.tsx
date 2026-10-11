@@ -1,10 +1,11 @@
-export default function AboutPage() {
+export default function ProjectsPage() {
   return (
-    <div style={{ maxWidth: "900px", margin: "0 auto", padding: "50px 20px" }}>
-      <h1>About</h1>
-      <p style={{ lineHeight: 1.8, color: "#555" }}>
-        This page introduces who I am, what I think about, and why I am building this website.
+    <main className="mx-auto max-w-4xl px-6 py-24">
+      <h1 className="text-5xl font-bold">Projects</h1>
+
+      <p className="mt-6 text-xl leading-8 text-gray-700">
+        Selected works, experiments, and personal projects will be collected here.
       </p>
-    </div>
+    </main>
   );
 }
